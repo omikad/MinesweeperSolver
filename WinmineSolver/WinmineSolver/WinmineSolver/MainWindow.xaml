@@ -1,0 +1,36 @@
+﻿<Window x:Class="WinmineSolver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WinmineSolver" Height="350" Width="525">
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="120" />
+        </Grid.ColumnDefinitions>
+
+        <RichTextBox x:Name="textbox"
+                     FontFamily="Courier New"
+                     IsReadOnly="True" />
+
+        <StackPanel VerticalAlignment="Top" Grid.Column="1">
+            <Button Content="Go!"
+                    Click="buttonGoClick"/>
+            <Button Content="Прочитать доску"
+                    Margin="0,10,0,0"
+                    Click="buttonReadBoardClick"/>
+
+            <Button Content="Показать движения"
+                    Margin="0,10,0,0"
+                    Click="buttonShowMousePropertiesClick"/>
+
+            <Button Content="Записать движения"
+                    Margin="0,40,0,0"
+                    Click="buttonSaveMouseClick"/>
+            <Button Content="Остановить запись"
+                    Margin="0,0,0,0"
+                    Click="buttonStopMouseClick"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
