@@ -19,6 +19,9 @@ namespace WinmineSolver.Mouse
 		[Export(typeof(Func<string, IMouseTrailCollection>))]
 		public IMouseTrailCollection ParseFile(string fileName)
 		{
+			if (!File.Exists(fileName))
+				return new MouseTrailCollection(new MouseMovementInfo[0]);
+
 			using (var fs = new StreamReader(fileName))
 			{
 				var infos = new List<MouseMovementInfo>();

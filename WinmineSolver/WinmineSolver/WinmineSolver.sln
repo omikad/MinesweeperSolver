@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinmineSolverMyBest", "WinmineSolver\WinmineSolverMyBest.csproj", "{C2743366-2390-4A2B-B1FE-4DA823CF6955}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinmineSolver", "WinmineSolver\WinmineSolver.csproj", "{C2743366-2390-4A2B-B1FE-4DA823CF6955}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

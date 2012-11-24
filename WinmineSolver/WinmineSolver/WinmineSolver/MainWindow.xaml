@@ -16,18 +16,18 @@
         <StackPanel VerticalAlignment="Top" Grid.Column="1">
             <Button Content="Go!"
                     Click="buttonGoClick"/>
-            <Button Content="Прочитать доску"
+            <Button Content="Read board"
                     Margin="0,10,0,0"
                     Click="buttonReadBoardClick"/>
 
-            <Button Content="Показать движения"
+            <Button Content="Mouse info"
                     Margin="0,10,0,0"
                     Click="buttonShowMousePropertiesClick"/>
 
-            <Button Content="Записать движения"
+            <Button Content="Record mouse"
                     Margin="0,40,0,0"
                     Click="buttonSaveMouseClick"/>
-            <Button Content="Остановить запись"
+            <Button Content="Stop recording"
                     Margin="0,0,0,0"
                     Click="buttonStopMouseClick"/>
         </StackPanel>
